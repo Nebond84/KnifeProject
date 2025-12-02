@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная страница</title>
-    {% load static %} 
+    {% load static %}
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
 </head>
 
 <body>
@@ -14,7 +16,12 @@
         <p>
             Вы можете просмотреть данные о клиентах, нажав кнопку ниже:
         </p>
-        <a href="/api/clients/" class="btn btn-primary">Просмотр клиентов</a>
+        <a href="/api/clients/" class="btn_secondary btn-primary">Управление списком</a>
+        <br>
+        <br>
+        <br>
+
+        <a href="clients/html/" class="btn btn-primary">Просмотр клиентов</a>
     </div>
 </body>
 

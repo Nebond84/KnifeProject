@@ -6,14 +6,21 @@ import bac from "./image/bac.jpg"
 
 export const HomePage = () => (
 
-    <div className="bg" style={{ backgroundColor: ' rgb(188, 198, 204)', backgroundSize: 'cover',height:'1310px'}}>
+    <div className="bg" style={{ backgroundColor: ' rgb(188, 198, 204)', backgroundSize: 'cover', height: '1310px' }}>
         <Hero
-            title="Нам доверяют"
-          
-            subtitle="Elit enim dolor eu commodo deserunt consequat in nulla irure. Cillum ut enim ipsum ipsum dolor officia incididunt do eiusmod dolor ipsum irure adipisicing. Ullamco esse aliquip laborum ex Lorem ullamco excepteur ex elit dolore nisi nostrud. Officia occaecat duis Lorem anim. Commodo officia anim velit id Lorem id et cillum."
+            title="Добро пожаловать в мир эксклюзивных ножей!"
+
+            subtitle="
+                        Мы рады представить вам нашу коллекцию уникальных ножей, созданных с любовью и вниманием к деталям. Наша компания специализируется на изготовлении ножей, которые не только отличаются выдающимся качеством, но и подчеркивают индивидуальность каждого клиента.
+
+                        При создании наших изделий мы используем только высококачественные материалы и передовые технологии. Каждый нож проходит строгий контроль качества, чтобы гарантировать, что он будет служить вам верой и правдой долгие годы.
+
+                        Наша команда мастеров готова помочь вам выбрать идеальный нож, который станет верным спутником в вашем ежедневном использовании или великолепным подарком для ваших близких.
+
+                        Откройте для себя наш каталог и найдите идеальный нож, который отразит вашу индивидуальность и стиль!"
             bg={bac}
         />
         <Slider />
     </div>
-  
+
 );
